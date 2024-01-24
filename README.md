@@ -6,17 +6,17 @@ This machine learning project focuses on predicting customer churn in the teleco
 The goal is to build a model that can accurately classify whether a customer is likely to switch telecommunications providers, commonly referred to as "churning."
 
 ## Project Highlights :
-  ### Task 1: Exploratory Data Analysis (EDA)
+  ### 1: Exploratory Data Analysis (EDA)
 
 - Utilized various EDA techniques to understand the dataset.
 - Applied univariate variable analysis using `df['feature'].unique()` to explore categorical features.
 
-### Task 2: Feature Engineering
+### 2: Feature Engineering
 
 - Addressed issues in the dataset features, including fixing missing values and handling skewed distributions.
 - Detected and transformed skewed distributions using log/sqrt transformations for numeric variables.
 
-### Task 3: Encoding and Model Training
+### 3: Encoding and Model Training
 
 - Explored different encoding techniques, including CatBoost Encoding (Count Encoding, Target Encoding) and compared the performance with One-Hot Encoding.
 - Scaled numeric data for improved model performance.
